@@ -1,8 +1,12 @@
 # LanChat
 一个极简的ai 对话程序，纯powershell .One script. Your model. Ready to chat. 
 
+支持纯内网环境，无需登陆，开箱即用，无python及nodejs依赖。
 
 **一个纯 PowerShell 编写的极简大模型 API 测试工具与命令行对话客户端。**
+
+<img width="559" height="106" alt="image" src="https://github.com/user-attachments/assets/23fa2602-faed-430f-9623-5560b02fef75" />
+
 
 无需编译，无需安装第三方依赖，无需登录外部账号。只要 Windows 电脑能够访问目标模型 API，即可测试模型接口、查看模型列表，并开始连续多轮对话。
 
@@ -169,6 +173,9 @@ pause
 ## 🧭 项目定位与当前边界
 
 这个项目希望保持小巧、直接、易于审查。
+
+<img width="960" height="1020" alt="image" src="https://github.com/user-attachments/assets/3585211e-dffe-4fbd-b73e-5f0155bf41ba" />
+
 
 当前版本可以看作一个**极简模型客户端，也可以作为轻量级 Agent 的交互起点**。它支持连续多轮对话，但目前不具备完整 Agent 系统常见的自主规划、工具调用、函数调用或自动执行任务等能力。
 
